@@ -47,7 +47,8 @@ export default function ForgotPasswordPage() {
 
           <div className="text-center">
             <Link 
-              href="/login" 
+              // href="#" 
+              href="#"
               className="text-customblue hover:text-red-400 text-sm"
             >
               Giriş sayfasına dön

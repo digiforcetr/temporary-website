@@ -62,7 +62,7 @@ export default function YeniKurulanSirketLandingPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="space-y-4 p-6 bg-gray-700 rounded-lg">
                 <h3 className="text-xl font-bold">Kuruluş Hikayemiz</h3>
-                <p className="text-gray-400">Digiforce, bir siber güvenlik uzmanı ve bir yazılımcı öğrencisi tarafından kuruldu. Amacımız, tekil ve kurumsal kullanıcılar için antivirüs sistemleri başta olmak üzere onların güvenliklerine katkı sağlamaktır.</p>
+                <p className="text-gray-400">Digiforce, bir siber güvenlik uzmanı ve bir yazılımcı tarafından kuruldu. Amacımız, tekil ve kurumsal kullanıcılar için antivirüs sistemleri başta olmak üzere onların güvenliklerine katkı sağlamaktır.</p>
               </div>
               <div className="space-y-4 p-6 bg-gray-700 rounded-lg">
                 <h3 className="text-xl font-bold">Misyonumuz</h3>

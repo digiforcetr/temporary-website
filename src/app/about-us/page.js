@@ -1,5 +1,5 @@
 "use client"
-import { Shield, Users, Rocket, Target, Award } from 'lucide-react'
+import { Shield, Target, Award } from 'lucide-react'
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"
 import Link from 'next/link'
@@ -14,15 +14,15 @@ export default function AboutUsPage() {
       <main className="container mx-auto px-4 py-16 md:py-24">
         <section className="mb-20">
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="md:w-1/2 mb-10 md:mb-0">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            <div className="w-full mb-10 md:mb-0">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-center">
                 DigiForce Hakkında
               </h1>
-              <p className="text-xl mb-8 text-gray-300 max-w-lg">
-                Siber güvenlik dünyasında öncü, yenilikçi ve güvenilir çözümler sunan genç bir şirketiz.
+              <p className="text-xl w-full mb-8 text-gray-300 text-center">
+                Siber güvenlik dünyasında yenilikçi ve güvenilir çözümler sunan genç bir şirketiz.
               </p>
             </div>
-            <div className="md:w-1/2">
+            {/* <div className="md:w-1/2">
               <Image
                 src="/placeholder.svg?height=400&width=600"
                 alt="SAVA Teknoloji ekibi"
@@ -30,14 +30,14 @@ export default function AboutUsPage() {
                 height={400}
                 className="rounded-lg shadow-2xl"
               />
-            </div>
+            </div> */}
           </div>
         </section>
 
         <section className="mb-20">
           <h2 className="text-3xl font-bold text-center mb-12">Biz Kimiz?</h2>
           <p className="text-lg text-center max-w-3xl mx-auto mb-8">
-            DigiForce, bir siber güvenlik uzmanı ve bir yazılımcı öğrencisi tarafından kuruldu. Amacımız, tekil ve kurumsal kullanıcılar için antivirüs sistemleri başta olmak üzere onların güvenliklerine katkı sağlamaktır.
+            DigiForce, bir siber güvenlik uzmanı ve bir yazılımcı tarafından kuruldu. Amacımız, tekil ve kurumsal kullanıcılar için antivirüs sistemleri başta olmak üzere onların güvenliklerine katkı sağlamaktır.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-center">

@@ -20,7 +20,7 @@ export function NavDropdown() {
           <HelpCircle className="h-5 w-5" />
           SSS
         </Link>
-        <Link className="text-sm font-medium hover:text-gray-400  flex items-center gap-2" href="/login">
+        <Link className="text-sm font-medium hover:text-gray-400  flex items-center gap-2" href="#">
           <CreditCard className="h-5 w-5" />
           Giriş
         </Link>
@@ -47,7 +47,7 @@ export function NavDropdown() {
             </DropdownMenuItem>
             <DropdownMenuItem className="hover:bg-gray-800 focus:bg-gray-800 flex items-center gap-2">
               <CreditCard className="h-5 w-5" />
-              <Link href="/login" className="w-full">Giriş</Link>
+              <Link href="#" className="w-full">Giriş</Link>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>

@@ -15,7 +15,7 @@ export default function JoinUsPage() {
             {[
               { icon: Rocket, title: "Hızlı Büyüme", description: "Dinamik ortamımızda kariyerinizi hızlandırın" },
               { icon: Users, title: "İnovatif Ekip", description: "Yaratıcı ve tutkulu profesyonellerle çalışın" },
-              { icon: Shield, title: "Öncü Teknolojiler", description: "En son siber güvenlik teknolojilerini kullanın" },
+              { icon: Shield, title: "Öncü Teknolojiler", description: "En güncel siber güvenlik teknolojilerini kullanın" },
               { icon: Zap, title: "Etki Yaratın", description: "Dijital dünyayı daha güvenli hale getirin" }
             ].map((item, index) => (
               <div

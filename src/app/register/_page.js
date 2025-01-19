@@ -81,7 +81,7 @@ export default function RegisterPage() {
             <p className="text-gray-400 text-sm">
               Zaten hesabınız var mı?{' '}
               <Link 
-                href="/login" 
+                href="#" 
                 className="text-customblue hover:text-red-400"
               >
                 Giriş yapın
